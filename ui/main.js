@@ -1,8 +1,8 @@
-var button=document.getElementById('counter');
-var counter=0;
-button.onclick = function() {
-    counter=counter+1;
-    alert("this is absolute crap");
-    var shit=document.getElementById("count");
-    shit.innerHTML=counter.toString();
-    };
+var element = document.getElementById("counter");
+var counter = 0;
+element.onclicklistener  = function() {
+    var counter_display = document.getElementById("click_button");
+    counter= counter+1;
+    var element = document.getElementById("count");
+    element.innerHTML = counter.toString();
+}
