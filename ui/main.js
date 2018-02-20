@@ -8,7 +8,7 @@ button.onclick = function() {
     };
 
 var tester_button = document.getElementById("click_button");
-tester_button.onclick = temp;
+//tester_button.onclick = temp;
 
 var counter_value = 0;
 
