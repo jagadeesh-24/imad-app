@@ -5,3 +5,14 @@ button.onclick = function() {
     var shit=document.getElementById("count");
     shit.innerHTML=counter.toString();
     };
+
+var tester_button = document.getElementById("click_button");
+tester_button.onclick = temp;
+
+var counter_value = 0;
+
+function temp () {
+    counter_value = counter_value + 1;
+    var display = document.getElementById("display_value");
+    display.innerHTML = String(counter_value);
+}
